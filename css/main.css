@@ -15,7 +15,7 @@ h1 {
 	font-weight: 100;
 	font-size: 3em;
 	text-align: center;
-	margin: 0;
+	margin: 0 0 -10px;
 	padding: 20px 0 0;
 }
 h2 {
@@ -24,6 +24,7 @@ h2 {
 	margin: 0;
 	font-size: 2em;
 	color: black;
+	margin-bottom: 20px;
 }
 main {
 	margin: 0 auto;
@@ -32,7 +33,6 @@ main {
 	display: flex;
 	flex-flow: row nowrap;
 	justify-content: space-between;
-	align-items: center;
 }
 section {
 	font-family: 'Roboto', sans-serif;
@@ -49,7 +49,7 @@ section a {
 	background: #ddd;
 	width: 1px;
 	height: 100px;
-	margin: 0 20px;
+	margin: 60px 20px 0;
 }
 #info {
 	flex: 0 29%;
@@ -64,6 +64,10 @@ section a {
 #photo img {
 	width: 100%;
 	border-radius: 100%;
+	margin-top: 60px;
+}
+#info p {
+	margin: 5px 0 0;
 }
 #tagLine {
 	font-style: italic;
